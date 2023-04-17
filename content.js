@@ -19,6 +19,6 @@ function boldFirstHalf(text) {
       node.childNodes.forEach(processNode);
     }
   }
-  alert("Hello from your Chrome extension!");
+  alert("Happy reading! If you want to deactivate the bold, just refresh the page.");
   processNode(document.body);
   
